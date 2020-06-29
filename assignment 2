@@ -1,2 +1,16 @@
 Problem 3 :
              mkdir -p a/b/d/i/m/n j/h e/h/l/n c/f/h g/k/h
+
+
+Problem 4:
+            useradd jack
+            useradd jill
+            su - jack
+            vim jack.txt 
+              -> hello jack
+            mkdir jack1 jack2 
+            
+            su - jill
+            vim jill.txt 
+               -> hello jill
+            mkdir jill1 jill2 
